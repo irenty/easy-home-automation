@@ -10,7 +10,7 @@ def lw_send(command):
 
     print("lwrf is executing command {}".format(command))
 
-    TX=25
+    TX=4
     TX_REPEAT = 10
 
     pi = pigpio.pi() # Connect to local Pi.
