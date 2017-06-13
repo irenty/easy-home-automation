@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Irek\documents\visual studio 2015\Projects\CustomCortanaCommands\CustomCortanaCommands\bin\x64\Release\CustomCortanaCommands_1.0.5.0_x64.appx
+SymbolPackage=C:\Users\Irek\documents\visual studio 2015\Projects\CustomCortanaCommands\CustomCortanaCommands\AppPackages\CustomCortanaCommands_1.0.5.0_Test\CustomCortanaCommands_1.0.5.0_x64.appxsym

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+
+ 
+
+  <CommandSet xml:lang="en-gb" Name="CustomCommandSet">
+    <CommandPrefix>banana</CommandPrefix>
+    <Example>tv on, tv off</Example>
+
+    <Command Name="switch">
+      <Example>lights on</Example>
+      <ListenFor>{switchObject} {switchState}</ListenFor>
+      <ListenFor>{switchAction} {switchState} [the] {switchObject}</ListenFor>
+      <ListenFor>{switchAction} [the] {switchObject} {switchState}</ListenFor>
+      <Feedback>Certainly</Feedback>
+      <Navigate />
+    </Command>
+
+    <Command Name="volume">
+      <Example>volume up</Example>
+      <ListenFor>{volumeObject} {volumeState} [times]</ListenFor>
+      <ListenFor>{volumeAction} [the] {volumeObject} {volumeState} [times]</ListenFor>
+      <Feedback>Aha</Feedback>
+      <Navigate />
+    </Command>
+    
+    <PhraseList Label="switchObject">
+      <Item>tv</Item>
+      <Item>sofa light</Item>
+      <Item>sofa lights</Item>
+      <Item>kitchen light</Item>
+      <Item>kitchen lights</Item>
+      <Item>cabinet light</Item>
+      <Item>cabinet lights</Item>
+      <Item>night lamp</Item>
+      <Item>night lamps</Item>
+      <Item>night light</Item>
+      <Item>night lights</Item>
+    </PhraseList>
+
+    <PhraseList Label="switchState">
+      <Item>on</Item>
+      <Item>off</Item>
+    </PhraseList>
+
+    <PhraseList Label="switchAction">
+      <Item>turn</Item>
+      <Item>switch</Item>
+    </PhraseList>
+    
+    <PhraseList Label="volumeObject">
+      <Item>volume</Item>
+    </PhraseList>
+    
+    <PhraseList Label="volumeState">
+      <Item>up</Item>
+      <Item>down</Item>
+      <Item>up two</Item>
+      <Item>down two</Item>
+      <Item>up three</Item>
+      <Item>down three</Item>
+      <Item>up four</Item>
+      <Item>down four</Item>
+      <Item>up five</Item>
+      <Item>down five</Item>
+    </PhraseList>
+
+    <PhraseList Label="volumeAction">
+      <Item>turn</Item>
+      <Item>put</Item>
+      <Item>set</Item>
+    </PhraseList>
+    
+  </CommandSet>
+
+</VoiceCommands>
