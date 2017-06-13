@@ -1,5 +1,4 @@
 #!/fsr/bin/env python
-import time
 import sys
 
 
@@ -17,10 +16,7 @@ def lw_send(command):
 
     tx = lwrfCustom.tx(pi, TX) # Specify Pi, tx gpio, and baud.
 
-    # print "Transmit testing sending", TX_TEST, TX_REPEAT, "times"
     tx.put(command, TX_REPEAT)
-
-    start = time.time()
 
     time.sleep(1)
     tx.cancel()

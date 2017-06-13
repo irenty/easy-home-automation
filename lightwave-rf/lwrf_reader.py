@@ -1,6 +1,4 @@
 #!/fsr/bin/env python
-import time
-import sys
 
 
 if __name__ == "__main__":
