@@ -9,9 +9,6 @@ Pigpiod must be running (sudo pigpiod)
 # 2015-01-17
 # lwrfCustom.py
 
-import time
-import pigpio
-
 # Pigpio custom extension calls for Lightwaverf
 CUSTOM_LWRF           =7287
 CUSTOM_LWRF_TX_INIT   =1
