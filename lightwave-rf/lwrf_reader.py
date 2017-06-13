@@ -9,7 +9,7 @@ if __name__ == "__main__":
     import pigpio
     import lwrfCustom
 
-    RX=24
+    RX=17
     RX_REPEAT = 0
 
     pi = pigpio.pi() # Connect to local Pi.
