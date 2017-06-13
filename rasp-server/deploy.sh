@@ -20,7 +20,7 @@ cp ./../lightwave-rf/lwrfCustom.py $server_folder
 cp ./../lightwave-rf/lwrf_driver.py $server_folder
 
 echo 'Copying run script'
-chmod +x $server_folder/run.sh
+chmod +x ./run.sh
 cp ./run.sh $server_folder
 
 echo "Now execute run.sh"
