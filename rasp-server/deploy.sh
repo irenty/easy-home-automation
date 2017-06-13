@@ -23,4 +23,4 @@ echo 'Copying run script'
 cp ./run.sh $server_folder
 chmod +x $server_folder/run.sh
 
-echo 'Now go to $server_folder and execute run.sh'
+echo "Now go to $server_folder and execute run.sh"
