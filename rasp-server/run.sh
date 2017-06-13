@@ -5,4 +5,4 @@ server_folder=~/rasp-server
 
 cd $server_folder
 
-python
+python server.py
