@@ -1,3 +1,6 @@
 # easy-home-automation
 
-TODO
+[raspberry-first-steps.md](raspberry-first-steps.md)
+
+[lightwaverf.md](lightwaverf.md)
+
